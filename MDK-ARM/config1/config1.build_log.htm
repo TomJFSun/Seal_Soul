@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: yjj suncode, Microsoft, LIC=AK1EV-P90ED-D30M3-A1LQK-7JGCS-UH6Y1
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.14.0_KEIL
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+D:\yjj_project\stm32l051\v1.0\desert_eagle_v1.0\config1\MDK-ARM\config1.uvprojx
+Project File Date:  12/09/2016
+
+<h2>Output:</h2>
+Build target 'config1'
+compiling test_seq.c...
+../Inc/test_seq.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif                //_TEST_SEQ_H
+..\Src\test_seq.c(122): warning:  #940-D: missing return statement at end of non-void function "ShortEnableSet"
+  }
+..\Src\test_seq.c(297): warning:  #177-D: variable "AdcVal" was declared but never referenced
+                uint16_t AdcVal;
+..\Src\test_seq.c(298): warning:  #177-D: variable "VolVal" was declared but never referenced
+                uint32_t VolVal, Res;
+..\Src\test_seq.c(300): warning:  #177-D: variable "Index" was declared but never referenced
+                static uint16_t Index=0;
+..\Src\test_seq.c: 5 warnings, 0 errors
+linking...
+Program Size: Code=12924 RO-data=260 RW-data=112 ZI-data=1568  
+FromELF: creating hex file...
+"config1\config1.axf" - 0 Error(s), 5 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.2.0.pack
+                ARM::CMSIS:CORE:3.40.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 3.40.0
+
+<h2>Collection of Component include folders:</h2>
+  D:\yjj_project\stm32l051\v1.0\desert_eagle_v1.0\config1\MDK-ARM\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\Keil\Keil.STM32L0xx_DFP.1.6.0
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.40.0
+      Source file:   CMSIS\UserCodeTemplates\ARM\ITM_Retarget.c
+</pre>
+</body>
+</html>
