@@ -44,6 +44,7 @@
 #include "display.h"
 #include "e_ink.h"
 #include "test_seq.h"
+#include "short_test.h"
 
 
 
@@ -118,7 +119,8 @@ void TimerProcess_1s(void)
 	if(TimeFlag_1s)
 	{
 		TimeFlag_1s = 0;
-		TestFunc();
+		ShortTestFunc();
+		//OpenTestFunc();
 		//als = UserAls.Get(&UserI2c1);
 		//DisplayDec(0,0,als);
 		/*
@@ -175,7 +177,7 @@ int main(void)
 
 
 	KeyInit();
-	E_INK_Init();
+	//E_INK_Init();
 	//E_INK_PutString(0,0,"HELLO",5);
 	//E_INK_PutString(80,100,"1234567890",10);
 	//Display_Logo();

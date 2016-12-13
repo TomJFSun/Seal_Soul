@@ -38,10 +38,11 @@
 "config1\elec_sw.o"
 "config1\cat9555.o"
 "config1\usart.o"
-"config1\e_ink.o"
 "config1\test_seq.o"
+"config1\short_test.o"
+"config1\open_test.o"
+"config1\e_ink.o"
 --library_type=microlib --strict --scatter "config1\config1.sct"
-
 --diag_suppress=L6329 --summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "config1.map" -o config1\config1.axf

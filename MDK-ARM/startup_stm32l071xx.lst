@@ -387,18 +387,18 @@ ARM Macro Assembler    Page 6
               00000000 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M0+ --apcs=inter
-work --depend=config1\startup_stm32l071xx.d -oconfig1\startup_stm32l071xx.o -ID
+work --depend=config1\startup_stm32l071xx.d -oconfig1\startup_stm32l071xx.o -IC
 
 
 
 ARM Macro Assembler    Page 7 
 
 
-:\yjj_project\stm32l051\v1.0\desert_eagle_v1.0\config1\MDK-ARM\RTE -IC:\Keil_v5
-\ARM\PACK\ARM\CMSIS\4.2.0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\Keil.STM32L0
-xx_DFP.1.6.0 --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SET
-A 514" --predefine="_RTE_ SETA 1" --predefine="STM32L071xx SETA 1" --list=start
-up_stm32l071xx.lst startup_stm32l071xx.s
+:\Keil\Projects\Seal_Soul\MDK-ARM\RTE\_config1 -IC:\Keil\ARM\PACK\ARM\CMSIS\5.0
+.0\CMSIS\Include -IC:\Keil\ARM\PACK\Keil\STM32L0xx_DFP\1.6.0\Device\Include --p
+redefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSION SETA 522" --predefi
+ne="_RTE_ SETA 1" --predefine="STM32L071xx SETA 1" --list=startup_stm32l071xx.l
+st startup_stm32l071xx.s
 
 
 

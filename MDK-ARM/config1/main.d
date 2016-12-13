@@ -7,14 +7,14 @@ config1\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_def.h
 config1\main.o: ../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l0xx.h
 config1\main.o: ../Drivers/CMSIS/Device/ST/STM32L0xx/Include/stm32l071xx.h
 config1\main.o: ../Drivers/CMSIS/Include/core_cm0plus.h
-config1\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+config1\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdint.h
 config1\main.o: ../Drivers/CMSIS/Include/core_cmInstr.h
 config1\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
 config1\main.o: ../Drivers/CMSIS/Include/core_cmFunc.h
 config1\main.o: ../Drivers/CMSIS/Device/ST/STM32L0xx/Include/system_stm32l0xx.h
 config1\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal.h
 config1\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
-config1\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+config1\main.o: C:\Keil\ARM\ARMCC\Bin\..\include\stdio.h
 config1\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_rcc_ex.h
 config1\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio.h
 config1\main.o: ../Drivers/STM32L0xx_HAL_Driver/Inc/stm32l0xx_hal_gpio_ex.h
@@ -48,3 +48,6 @@ config1\main.o: ../Inc/cat9555.h
 config1\main.o: ../Inc/display.h
 config1\main.o: ../Inc/e_ink.h
 config1\main.o: ../Inc/test_seq.h
+config1\main.o: ../Inc/ads1115.h
+config1\main.o: ../Inc/elec_sw.h
+config1\main.o: ../Inc/short_test.h
